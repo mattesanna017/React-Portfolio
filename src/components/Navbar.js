@@ -15,7 +15,7 @@ function Navbar() {
         <h1>Matteo Sanna</h1>
       </Link>
 
-      <ul className="nav-menu">
+      <ul className={click? "nav-menu active" : "nav-menu"}>
         <li>
             <Link to= "/"> Home </Link>
         </li>
@@ -34,9 +34,14 @@ function Navbar() {
        
       </ul>
 
-      <div className="hamburger">
-        <FaBars size={20} style={{color:"#fff"}} />
-        <FaTimes size={20} style={{color:"#fff"}} />
+      <div className="hamburger" onClick={handleClick}>
+        {click ? (
+            <FaTimes size={20} style={{color:"#fff"}} />
+        ) : (
+            <FaBars size={20} style={{color:"#fff"}} />
+        )}
+        
+        
       </div>
     </div>
   )
