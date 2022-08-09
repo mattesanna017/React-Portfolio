@@ -1,47 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-
-*{
-  box-sizing : border-box;
-  margin:0;
-  padding:0;
-  font-family:'Oswald', sans-serif; 
-  text-decoration: none;
+@layer base {
+    body {
+        @apply font-[Oswald];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
 }
 
-body {
-  background: #000;
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
 }
 
-h1,
-h4,
-p,
-a {
-  color: #fff
-}
-
-ul {
-  list-style-type: none;
-}
-
-.btn {
-  padding: 12px 32px;
-  font-size:1rem;
-  text-transform: uppercase;
-  background-color: rgb(248, 217, 15);
-  color:#222;
-  border: 1px solid #fff;
-  font-weight: 600;
-  cursor:pointer;
-}
-
-.btn-light {
-  background: transparent;
-  color: #fff;
-}
-
-.btn:hover {
-  background: rgba(255,255, 255, 0.2);
-  color: #fff;
-  transition: 0.3s;
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(136, 47, 47, 0.8),
+        hsl(0, 74%, 61%)
+    )!important;
 }

@@ -1,22 +1,23 @@
-import react from "react";
-import "./index.css";
-import Home from "./routes/Home";
-import About from "./routes/About";
-import Project from "./routes/Project";
-import Contact from "./routes/Contact";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
-import {Route, Routes} from "react-router-dom"
 
 function App() {
   return (
- <>
- <Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/project" element={<Project />} />
-  <Route path="/about" element={<About />} />
-  <Route path="/contact" element={<Contact />} />
- </Routes>
- </>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Resume />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
