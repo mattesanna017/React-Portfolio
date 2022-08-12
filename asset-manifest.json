@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.cd1e204c.css",
+    "main.js": "/portfolio-react/static/js/main.71c9039e.js",
+    "static/media/ecommerce.jpg": "/portfolio-react/static/media/ecommerce.274be845cf72f77ea35b.jpg",
+    "static/media/socialnetworkapi.jpg": "/portfolio-react/static/media/socialnetworkapi.1507fcf7f87e539207d7.jpg",
+    "static/media/images.jpeg": "/portfolio-react/static/media/images.b7b89836c7f375af6a79.jpeg",
+    "static/media/techblog.PNG": "/portfolio-react/static/media/techblog.0e692ef7b158411999ff.PNG",
+    "static/media/texteditor.PNG": "/portfolio-react/static/media/texteditor.4f42d5d8760308d3cb6a.PNG",
+    "static/media/notetaker.PNG": "/portfolio-react/static/media/notetaker.a24ec8fcd5d4adf37cc1.PNG",
+    "index.html": "/portfolio-react/index.html",
+    "main.cd1e204c.css.map": "/portfolio-react/static/css/main.cd1e204c.css.map",
+    "main.71c9039e.js.map": "/portfolio-react/static/js/main.71c9039e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd1e204c.css",
+    "static/js/main.71c9039e.js"
+  ]
+}
